@@ -5,7 +5,7 @@ int CurrentStep;
 int EndStep; 
 int Speed;
 int Delay;
-int LastDelay;
+long LastDelay;
 int Direction;
 boolean Switch1;
 boolean Switch2;
@@ -37,6 +37,7 @@ void setup()
   CurrentStep=0;//Current Step
   Delay=60L * 1000L / 400 / Speed;//delay between steps in milliseconds
   EndStep=0;//Goal step
+  LastDelay=0L;
   Serial.begin(9600);
  };
 
