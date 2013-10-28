@@ -1,6 +1,3 @@
-
-
-
 int CurrentStep;
 int EndStep; 
 int Speed;
@@ -77,3 +74,4 @@ void loop()
   };
   Serial.println(CurrentStep);
  };
+
