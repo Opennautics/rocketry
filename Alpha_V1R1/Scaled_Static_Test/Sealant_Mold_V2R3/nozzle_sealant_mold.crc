@@ -1,0 +1,53 @@
+﻿  MODEL NOZZLE_SEALANT_MOLD :
+ 
+
+  3 CIRCULAR REFERENCE LOOPS FOUND
+ 
+
+   LOOP #  1
+
+   Depth of loop is 3
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD refers to:
+
+Feature number 7 (REVOLVE_1, id = 40) 
+  in model NOZZLE_MOLD_HALF refers to:
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD - circle closed.
+
+
+   LOOP #  2
+
+   Depth of loop is 4
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD refers to:
+
+Feature number 7 (REVOLVE_1, id = 40) 
+  in model NOZZLE_MOLD_HALF must follow after:
+
+Feature number 6 (DATUM AXIS, id = 43) 
+  in model NOZZLE_MOLD_HALF refers to:
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD - circle closed.
+
+
+   LOOP #  3
+
+   Depth of loop is 4
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD refers to:
+
+Feature number 9 (EXTRUDE_4, id = 855) 
+  in model NOZZLE_MOLD_HALF must follow after:
+
+Feature number 6 (DATUM AXIS, id = 43) 
+  in model NOZZLE_MOLD_HALF refers to:
+
+Feature number 6 (COMPONENT, id = 50) 
+  in model NOZZLE_SEALANT_MOLD - circle closed.
+
